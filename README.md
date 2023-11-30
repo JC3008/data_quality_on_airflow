@@ -1,5 +1,5 @@
 
-# Project Overview
+Project Overview
 ========
 This project aims to extract data from Kaggle and turn it available on GCP Big Query.
 chosen technologies set is described bellow:
@@ -9,7 +9,7 @@ chosen technologies set is described bellow:
 * Storage DataLake: GCP
 * Storage Data WareHouse: Big Query 
 
-# Project Status
+Project Status
 ========
 Containerization Docker:                Done
 Python Script for extracting data:      Pending
@@ -22,7 +22,6 @@ Orquestration Transforming:             Pending
 For this project it is nice to have previous experience with Python development, Docker CLI and Airflow practices. The Airflow enviroment is builded by performing Astro-Python-SDK. This appoach provides speed on building process and takes away some possible issues on setting up the dependencies.
 It will be great if you are familiar with configuration files, as the SODA application uses it a lot for stablish connections and perform data quality assurance.
 I intend to describe in detail all the requirements for making it as easier as possible.
-
 
 ## GCP enviroment setup
 * Create an account if you don't have one.
