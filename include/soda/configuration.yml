@@ -11,5 +11,5 @@ data_source retail:
 
 soda_cloud:
   host: yourinformation
-  api_key_id: 
+  api_key_id: xxxxxxxxxxxxxx
   api_key_secret: 
