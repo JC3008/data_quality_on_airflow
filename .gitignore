@@ -4,5 +4,5 @@
 airflow_settings.yaml
 __pycache__/
 astro
-include\gcp\service_account.json
-include\soda\configuration.yml
+include/gcp/service_account.json
+include/soda/configuration.yml
