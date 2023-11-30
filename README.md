@@ -11,12 +11,12 @@ chosen technologies set is described bellow:
 
 Project Status
 ========
-Containerization Docker:                Done
-Python Script for extracting data:      Pending
-Orquestration Extracting from source:   Pending
-Orquestration Upload into GCS Datalake: Done
-Orquestration Data Quality:             Done
-Orquestration Transforming:             Pending
+* Containerization Docker:                Done
+* Python Script for extracting data:      Pending
+* Orquestration Extracting from source:   Pending
+* Orquestration Upload into GCS Datalake: Done
+* Orquestration Data Quality:             Done
+* Orquestration Transforming:             Pending
 
 ## Considerations about handy previous knowledge.
 For this project it is nice to have previous experience with Python development, Docker CLI and Airflow practices. The Airflow enviroment is builded by performing Astro-Python-SDK. This appoach provides speed on building process and takes away some possible issues on setting up the dependencies.
