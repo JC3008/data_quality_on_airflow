@@ -23,6 +23,13 @@ For this project it is nice to have previous experience with Python development,
 It will be great if you are familiar with configuration files, as the SODA application uses it a lot for stablish connections and perform data quality assurance.
 I intend to describe in detail all the requirements for making it as easier as possible.
 
+## Airflow some important commands
+* To start a new enviroment: astro dev init
+* After building up that, you can see a folder structure inside your root folder.
+* To start Airflow UI, just type astro dev start on your terminal. It ll trigger
+the building of all dependencies and start the UI.
+* In the Airflow UI, add a new Connnection called gcp and choose Google Cloud as connection type. In the Keyfile Path type the path to service_account.json file it is probally something like /usr/local/airflow/include/gcp/service_account.json.
+
 ## GCP enviroment setup
 * Create an account if you don't have one.
 * Create a bucket
@@ -34,9 +41,7 @@ I intend to describe in detail all the requirements for making it as easier as p
     click on the service account name and look for the Keys menu.
     Create a new key and save it as Json inside include/GCP directory
 
-Reestart or Start your astro dev
 
-In the Airflow UI, add a new Connnection.
 
 ## SODA configuration:
 * It is required to fill up the include\soda\configuration.yml with your credentials. 
