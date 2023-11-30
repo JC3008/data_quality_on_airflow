@@ -29,6 +29,7 @@ I intend to describe in detail all the requirements for making it as easier as p
 * To start Airflow UI, just type astro dev start on your terminal. It ll trigger
 the building of all dependencies and start the UI.
 * In the Airflow UI, add a new Connnection called gcp and choose Google Cloud as connection type. In the Keyfile Path type the path to service_account.json file it is probally something like /usr/local/airflow/include/gcp/service_account.json.
+This file will be created on GCP platform, and it is described in the next session.
 
 ## GCP enviroment setup
 * Create an account if you don't have one.
@@ -40,8 +41,6 @@ the building of all dependencies and start the UI.
 * For this Service Account, create a new key.
     click on the service account name and look for the Keys menu.
     Create a new key and save it as Json inside include/GCP directory
-
-
 
 ## SODA configuration:
 * It is required to fill up the include\soda\configuration.yml with your credentials. 
