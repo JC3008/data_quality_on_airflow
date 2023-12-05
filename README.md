@@ -1,8 +1,9 @@
 
 Project Overview
 ========
-This project aims to extract data from Kaggle and turn it available on GCP Big Query.
-chosen technologies set is described bellow:
+This project aims to extract data from Kaggle and turn it available on GCP Big Query. 
+
+Chosen technologies set is described bellow:
 * Orquestration: Astro-Python-SDK
 * Data Quality: SODA
 * Data Transformations: DBT
