@@ -12,12 +12,12 @@ Chosen technologies set is described bellow:
 
 Project Status
 ========
-* Containerization Docker:                Done
-* Python Script for extracting data:      Pending
-* Orquestration Extracting from source:   Pending
-* Orquestration Upload into GCS Datalake: Done
-* Orquestration Data Quality:             Done
-* Orquestration Transforming:             Pending
+* Containerization Docker:                  Done
+* Python Script for extracting data:        Pending
+* Orquestration Extracting from source:     Pending
+* Orquestration Upload into GCS Datalake:   Done
+* Orquestration Data Quality on RAW layer:  Done
+* Orquestration Transforming DBT models:    Done
 
 ## Considerations about handy previous knowledge.
 For this project it is nice to have previous experience with Python development, Docker CLI and Airflow practices. The Airflow enviroment is builded by performing Astro-Python-SDK. This appoach provides speed on building process and takes away some possible issues on setting up the dependencies.
@@ -44,6 +44,8 @@ This file will be created on GCP platform, and it is described in the next sessi
     Create a new key and save it as Json inside include/GCP directory
 
 ## SODA configuration:
+SODA is a framework which enable us to implement Data Quality step on our pipelines. It is performed by using yml files that hold the expected data types and columns names. For better understanding you can take a look at include\soda\checks\sources\raw_invoices.yml.
+
 * It is required to fill up the include\soda\configuration.yml with your credentials. 
 
 
